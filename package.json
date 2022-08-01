@@ -1,0 +1,12 @@
+{
+  "name": "gutenberg-test",
+  "version": "1.0.0",
+  "description": "Gutenberg Test",
+  "scripts": {
+    "start:custom": "wp-scripts start src/editor.js src/frontend.js",
+    "build:custom": "wp-scripts build editor.js frontend.js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "23.6.0"
+  }
+}

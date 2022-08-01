@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "bigbite/gutenberg-test",
+  "title": "Gutenberg Test",
+  "description": "My test block.",
+  "category": "text",
+  "icon": "editor-ul",
+  "keywords": ["Gutenberg test"],
+  "editorScript": "file:./build/editor.js",
+  "editorStyle": "file:./build/style-index.css",
+  "style": "file:./build/frontend.css",
+  "script": "file:./build/frontend.js"
+}
